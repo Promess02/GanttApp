@@ -73,7 +73,7 @@ Aby rozpocząć pracę z Ganttify, wykonaj następujące kroki:
 
 1. Sklonuj repozytorium:
    ```sh
-   git clone https://github.com/yourusername/ganttify.git
+   git clone https://github.com/Promess02/GanttApp.git
    ```
 2. Przejdź do katalogu backend:
     ```sh
