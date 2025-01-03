@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.grid-only, .chart-only {
+  width: 95%;
+  margin: auto;
+}
+
+.task-linked-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task-chain {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task-onlist {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.arrow-linkedlist {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #007bff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -10px;
+}
+
+.network-only {
+  width: 95%;
+  margin: auto;
+}
+
+.react-flow__node {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.evaluation-draggable {
+  position: absolute !important;
+  top: 30%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  max-width: 600px;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  z-index: 1000;
+}
+
+.react-flow__edge-path {
+  stroke: #ddd;
+  stroke-width: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+.both {
+  display: inherit;
+}
+/* Mermaid Gantt Chart Styles */
+#gantt-chart-container .mermaid {
+  flex: 1; /* Make the mermaid chart take up all available space */
+}
+
+#gantt-chart-container .mermaid .titleText {
+  font-size: 24px; /* Change title font size */
+}
+
+#gantt-chart-container .mermaid .sectionTitle {
+  font-size: 18px; /* Change section title font size */
+}
+
+#gantt-chart-container .mermaid .tick text {
+  font-size: 12px; /* Change date axis font size */
+}

@@ -1,0 +1,27 @@
+.bar-buttons {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px;
+    max-width: 150px;
+    border-radius: 6px;
+    background-color: #1a92e7;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1),
+}
+
+.bar-buttons:hover {
+    background-color: #104e7e;
+    box-shadow: 0 6px 12px rgb(0, 0.2, 0.2, 0.5);
+    cursor: pointer;
+}
+
+.save-button {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    max-width: 150px;
+    border-radius: 6px;
+    color: #97cff7;
+    background-color: #1a92e7;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1),
+}

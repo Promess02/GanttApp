@@ -1,0 +1,34 @@
+/* WBStree.css */
+
+#treeWrapper {
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+  }
+  
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.2px;
+  }
+  
+  .root-node circle {
+    fill: #4745c2;
+    stroke: #2e2266;
+  }
+  
+  .branch-node circle {
+    fill: #0084ff;
+    stroke: #0026ff;
+  }
+  
+  .leaf-node circle {
+    fill: #32cd32;
+    stroke: #32cd32;
+  }
+  
+  .node-label {
+    font-size: 12px;
+    font-weight: bold;
+    fill: #333;
+  }

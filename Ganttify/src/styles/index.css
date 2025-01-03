@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main-content {
+  display: flex;
+  padding-top: 124px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 1%;
+  height: 90vh;
+}
+
+#spreadsheet-container {
+  flex: 3; /* Allow the spreadsheet to grow and shrink */
+  overflow: auto; /* Add scroll if content overflows */
+  min-height: 800px;
+  width: 100%;
+}
+
+#gantt-chart-container {
+  align-items: center;
+  margin-top: 20px;
+  flex:5;
+  width: 100%;
+  height: 90vh;
+}
+
+#ganttChart {
+  font-size: 30px !important;
+}
+
+#ganttChart .titleText{
+  font-size: 30px !important;
+}
+
+#ganttChart .grid .tick text {
+  font-size: initial;
+}
+
+#ganttChart .sectionTitle{
+  font-size: initial;
+}
+
+.rnvodz57-0-0-beta-44 {
+  @layer rdg.Root{
+    block-size: 100vh !important;
+  }
+}
+
+.resizable-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.fill-grid {
+  /* flex: 1; */
+  height: 100%;
+  border:none;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.sample-drag-bar {
+  flex-shrink: 0;
+  width: 5px;
+  background-color: #d1d5db;
+  cursor: col-resize;
+  transition: background-color 0.15s 0.15s ease-in-out;
+}
+
+.sample-drag-bar.sample-drag-bar--dragging,
+.sample-drag-bar:hover {
+  background-color: #63B3ED;
+}
+
+.sample-drag-bar.sample-drag-bar--horizontal {
+  height: 5px;
+  width: 100%;
+  cursor: row-resize;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.contents {
+  display: grid;
+  place-items: start;
+  transition: filter 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.dragging {
+  filter: blur(5px);
+  background-color: #adadad;
+}
+
+.new-project-creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.new-project-creator form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.new-project-creator label {
+  margin-bottom: 5px;
+}
+
+.new-project-creator input,
+.new-project-creator textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.new-project-creator button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.new-project-creator button:hover {
+  background-color: #0056b3;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.title {
+  font-family: Arial;
+  margin-left: 12px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding: 20px 32px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.about-button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
