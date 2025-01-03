@@ -22,31 +22,35 @@ To get started with Ganttify, follow these steps:
    ```sh
    git clone https://github.com/Promess02/GanttApp.git
    ```
-2. Navigate to the backend directory:
+2. Navigate to root directory:
+   ```sh
+   cd GanttApp
+   ```
+3. Navigate to the backend directory:
    ```sh
    cd backend
    ```
-3. Install dependencies:
+4. Install dependencies:
    ```sh
    npm install
    ```
-4. Start the backend server:
+5. Start the backend server:
    ```sh
    node server.js
    ```
-5. Open a new terminal and navigate to the Ganttify directory:
+6. Open a new terminal and navigate to the Ganttify directory:
    ```sh
-   cd /Ganttify
+   cd Ganttify
    ```
-6. Install the dependencies:
+7. Install the dependencies:
    ```sh
    npm install
    ```
-7. Start the React application:
+8. Start the React application:
    ```sh
    npm start
    ```
-8. Navigate back to root project directory and access database (optional):
+9. Navigate back to root project directory and access database (optional):
    ```sh
    sqlite3 ganttifyApp.db
    ```
@@ -75,31 +79,35 @@ Aby rozpocząć pracę z Ganttify, wykonaj następujące kroki:
    ```sh
    git clone https://github.com/Promess02/GanttApp.git
    ```
-2. Przejdź do katalogu backend:
+2. Przejdź do głównego katalogu projektu:
+   ```sh
+   cd GanttApp
+   ```
+3. Przejdź do katalogu backend:
     ```sh
     cd backend
     ```
-3. Zainstaluj zależności:
+4. Zainstaluj zależności:
     ```sh
     npm install
     ```
-4. Uruchom serwer:
+5. Uruchom serwer:
     ```sh
     node server.js
     ```
-5. Otwórz nowy terminal i przejdź do katalogu Ganttify:
+6. Otwórz nowy terminal i przejdź do katalogu Ganttify:
     ```sh
     cd Ganttify
     ```
-6. Zainstaluj zależności:
+7. Zainstaluj zależności:
     ```sh
     npm install
     ```
-7. Uruchom aplikację React:
+8. Uruchom aplikację React:
     ```sh
     npm start
     ```
-8. Przejdź do katalogu głównego, aby uzyskać dostęp do bazy danych (opcjonalne, wymagana zainstalowana sqlite):
+9. Przejdź do katalogu głównego, aby uzyskać dostęp do bazy danych (opcjonalne, wymagana zainstalowana sqlite):
     ```sh
     sqlite3 ganttifyApp.db
     ```
